@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<launch>
+    <!-- Load the robot description parameter-->
+    <param name="robot_description"
+        command="$(find xacro)/xacro.py '$(find dreamer)/models/dreamer/xacro/dreamer_linked_to_world.xacro'" />
+
+    <include file="$(find controlit_models_common)/launch/rviz.xml">
+        <arg name="RVizConfigFile" value="$(find dreamer)/rviz/dreamer.rviz" />
+    </include>
+</launch>
