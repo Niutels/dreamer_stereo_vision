@@ -1,3 +1,6 @@
 [submodule "trikey_dreamer"]
 	path = trikey_dreamer
 	url = https://github.com/Niutels/trikey_dreamer
+[submodule "image_pipeline"]
+	path = image_pipeline
+	url = https://github.com/Niutels/image_pipeline.git
