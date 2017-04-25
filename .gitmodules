@@ -1,0 +1,3 @@
+[submodule "trikey_dreamer"]
+	path = trikey_dreamer
+	url = https://github.com/Niutels/trikey_dreamer
